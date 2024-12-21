@@ -19,6 +19,7 @@ model User {
   updatedAt DateTime @updatedAt
   email String @unique
   hashedPassword String
+  nickname String?
   task Task[]
 }
 
