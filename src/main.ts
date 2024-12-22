@@ -1,7 +1,7 @@
 import { ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import * as cookieParser from 'cookie-parser';
-import csurf from 'csurf';
+import * as csurf from 'csurf';
 import { Request } from 'express';
 import { AppModule } from './app.module';
 
